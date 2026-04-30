@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -180,4 +180,4 @@
     <Error Condition="!Exists('packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.redist.0.1.0.1\build\native\nupengl.core.redist.targets'))" />
     <Error Condition="!Exists('packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\nupengl.core.0.1.0.1\build\native\nupengl.core.targets'))" />
   </Target>
-</Project>
+<ItemGroup><None Include="Lab07-7.cpp" /><None Include="Lab07.h" /><None Include="acceleration-3.cpp" /><None Include="acceleration-3.h" /><None Include="collisions-1.h" /><None Include="collisions-2.cpp" /><None Include="crewDragon-3.cpp" /><None Include="crewDragon-3.h" /><None Include="direction-3.cpp" /><None Include="direction-3.h" /><None Include="dreamChaser-3.cpp" /><None Include="dreamChaser-3.h" /><None Include="fragment-1.cpp" /><None Include="fragment-3.h" /><None Include="gps-4.cpp" /><None Include="gps-4.h" /><None Include="hubble-4.cpp" /><None Include="hubble-4.h" /><None Include="position-3.cpp" /><None Include="position-3.h" /><None Include="satellite-4.cpp" /><None Include="satellite-4.h" /><None Include="sputnik-3.cpp" /><None Include="sputnik-3.h" /><None Include="starlink-3.cpp" /><None Include="starlink-3.h" /><None Include="test-2.cpp" /><None Include="testAcceleration-1.cpp" /><None Include="testCollisions-1.cpp" /><None Include="testCrewDragon-3.cpp" /><None Include="testDirection-2.cpp" /><None Include="testDreamChaser-3.cpp" /><None Include="testGps-3.cpp" /><None Include="testHubble-2.cpp" /><None Include="testSatellite-2.cpp" /><None Include="testSputnik-3.cpp" /><None Include="testStarlink-3.cpp" /><None Include="testTimeUtils-1.cpp" /><None Include="time_utils-2.cpp" /><None Include="time_utils-2.h" /></ItemGroup></Project>
