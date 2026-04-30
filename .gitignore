@@ -1,9 +1,20 @@
-# Visual Studio user-specific files
+# Visual Studio user and build artifacts
 *.user
 *.suo
-
-# Intermediate compiler artifacts
 *.obj
+*.pdb
 *.ilk
 *.tlog
 *.lastbuildstate
+*.recipe
+*.log
+
+# Build output folders
+x64/
+Lab07/x64/
+Debug/
+Release/
+
+# Generated executables and helper binaries
+*.exe
+*.dll
